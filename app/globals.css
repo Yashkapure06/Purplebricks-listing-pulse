@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/*
+  Listing Pulse theme - aligned to the Purplebricks brand: light surfaces,
+  deep purple accent, serif display headings, Trustpilot-style green.
+  Tailwind v4 reads design tokens from @theme; each token becomes a utility
+ 
+*/
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #1f1b2e;
+  --color-muted: #6b6678;
+
+  --color-card: #ffffff;
+  --color-card-2: #faf9fc;
+  --color-border: rgba(20, 12, 40, 0.08);
+
+  --color-accent: #4c0f78; /* Purplebricks deep purple */
+  --color-accent-foreground: #ffffff;
+
+  --color-good: #069668; /* Trustpilot-style green */
+  --color-warn: #b07505;
+  --color-urgent: #c43d3d;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-xl: 0.875rem;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+}
+
+/* Keep focus rings visible for keyboard users (accessibility). */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
