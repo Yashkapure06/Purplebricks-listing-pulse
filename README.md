@@ -1,4 +1,5 @@
 ![alt text](image-2.png)
+
 A seller-facing dashboard for Purplebricks that shows how a property listing is
 performing and recommends the next actions to take.
 
