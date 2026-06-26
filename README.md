@@ -1,4 +1,4 @@
-![alt text](image-2.png)
+![Purplebricks Listing Pulse](assets/banner.png)
 
 A seller-facing dashboard for Purplebricks that shows how a property listing is
 performing and recommends the next actions to take.
@@ -8,9 +8,9 @@ performing and recommends the next actions to take.
 **Listing Pulse** is a seller-focused dashboard that gives a quick health check of how a property listing is performing.
 The name reflects the idea of tracking key signals like views, viewings, offers, feedback, and price position to help sellers decide what to do next.
 
-![Main Listing Screen](image.png)
+![Main Listing Screen](assets/main-listing.png)
 
-![Listing Detail Screen](image-1.png)
+![Listing Detail Screen](assets/listing-detail.png)
 
 ## Run it
 
@@ -48,7 +48,7 @@ app/                  Routes, layout, loading skeletons, not-found.
 
 The split that matters: **all business logic is pure and lives in `lib/metrics.ts`**
 
-![Current Architecture](image-3.png)
+![Current Architecture](assets/architecture.png)
 
 ## Error handling
 
